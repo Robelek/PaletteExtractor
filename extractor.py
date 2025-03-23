@@ -94,7 +94,7 @@ def getAllUniqueColors():
 
     uniqueColors = set()
     image = currentImage.load()
-    width, height = currentImage.size
+    height, width = currentImage.size
 
     for y in range(height):
         for x in range(width):
